@@ -28,12 +28,47 @@ body {
 	text-decoration: none;
 }
 
+.tab_selected {
+	color: black !important;
+}
+
+
+.equal_cols {
+	display: table;
+    width: 100%;
+    table-layout: fixed;
+}
+
+.equal_cols span {
+	display: table-cell;
+    text-align: center;
+}
+
+
+.float_box {
+  float: left;
+  width: 50%;
+  padding: 0px;
+}
+
+.float_box_cols::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+/** for clear fix **/
+
+
 .language_select {
 	text-decoration: none;
 }
 
 h1 {
 	font-size: 24px;
+}
+
+.project_h1 {
+	padding-top: 80px;
 }
 
 h2 {
