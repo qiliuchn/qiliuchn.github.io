@@ -2,12 +2,34 @@
 <html>
 	<head>
 		<link rel="stylesheet" href="../assets/css/offworld.css">
+
+		<script type="text/javascript">
+		    var opacity=0;
+		    var intervalID=0;
+		    window.onload=fadeout;
+		        function fadeout(){
+		            setInterval(hide, 200);
+		        }
+		    function hide(){
+		        var body=document.getElementById("openning");
+		        opacity = Number(window.getComputedStyle(body).getPropertyValue("opacity"))
+		  
+	            if(opacity>0){
+	                   opacity=opacity-0.04;
+	                           body.style.opacity=opacity
+	            }
+	            else{
+	                clearInterval(intervalID); 
+	            }
+		    } 
+		</script>
+
 	</head>
 	<body>
-		<div class="openning">
+		<div id="openning">
 			<p class="openning_line">There is so much more I want to tell you, <br>but you can't bear it now.</p>
 			<p class="openning_source">John 16:12 NLV</p>
 		<div>
-			
+
 	</body>
 </html>
