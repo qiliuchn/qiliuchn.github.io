@@ -1,134 +1,118 @@
 
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+    <link rel="stylesheet" href="assets/css/main.css">
     <title>Qi Liu's site</title>
-
-    <style>
-      h1 { font-size: 24px; }
-      h2 { font-size: 16px; }
-      p { font-size: 14px; }
-      ul { font-size: 14px;}
-    </style>
   </head>
 
-  <body bgcolor='LIGHTGREY'>
+  <body>
+    <!-- Navigation bar -->
+    <nav class="navigation_bar">
+      <span class="navigation_bar"><a href="./projects/index.html">Projects</a></span>   
+      <span class="navigation_bar"><a href="./blog/index.html">Blog</a></span>
+      <span class="navigation_bar"><a href="./share/index.html">Share</a></span>
+      <span class="navigation_bar"><a href="./contact/index.html">Contact</a></span>
+    </nav>
+
+    <!-- Language selection -->
     <div>
-      <pre style="text-align:right;">English  <a href="./index_cn.html">中文</a> </pre>
-    </div>
+      <pre style="text-align:right;">English  <a class="language_select" href="./index_cn.html">中文</a> </pre>
+    <div>
 
-    <div class="container">
+    <div class="section">
+      <div class="row">
+        <!-- NAME -->
+        <h1><b>Qi Liu</b></h1>
+        <p><i>Engineer</i></p>
+      </div>
 
-      <div class="section">
-        <div class="row">
-          <!-- NAME -->
-          <h1><b>Qi Liu</b></h1>
-          <p><i>Engineer</i></p>
+      <div class="row">
+        <div class="column" style="width: 80%; float:left">            
+          <p><strong>Email:</strong> <a href="mailto:liuqi_tj@hotmail.com">liuqi_tj@hotmail.com</a><br>
+          </p>
+
         </div>
 
-        <div class="row">
-          <div class="column" style="width: 80%; float:left">            
-            <p><strong>Email:</strong> <a href="mailto:liuqi_tj@hotmail.com">liuqi_tj@hotmail.com</a><br>
-
-            </p>
-
+        <div class="column" style="width: 20%; float:right">
+          <div class="card-image">
+            <!-- PHOTO -->
+            <img src="./images/photo_128x186.jpg">
           </div>
-
-          <div class="column" style="width: 20%; float:right">
-            <div class="card-image">
-              <!-- PHOTO -->
-              <img src="./images/photo_128x186.jpg">
-            </div>
-          </div>
-
         </div>
+
       </div>
+    </div> <!-- end of bio_section -->
 
-      <!-- DIVIDER LINE BETWEEN SECTIONS -->
-      <div class="divider"></div>
+    <div class="section">
+      <h2>ABOUT ME</h2>
+      <p>
+      Proficient with transportation, including traffic flow theory, transportation system modeling and simulation, <br>
+      planning and policy, public transportation, MaaS.<br>
+      Love mathematics and physics.<br>
+      Interested in computer science.<br>
+      Dabble in economics (especially game theory), optimal control.<br>
+      </p>
+    </div> <!-- end of about_me_section -->
 
-      <div class="section">
-        <h2>ABOUT ME</h2>
-        <p>
-        Proficient with transportation, including traffic flow theory, transportation system modeling and simulation, <br>
-        planning and policy, public transportation, MaaS.<br>
-        Love mathematics and physics.<br>
-        Interested in computer science.<br>
-        Dabble in economics (especially game theory), optimal control.<br>
-        </p>
-      </div>
-      
-      <div class="divider"></div>
+    <div class="section">
+      <h2>EDUCATION</h2>
 
-      <div class="section">
-        <h2>EDUCATION</h2>
+      <ul>
+        <li>
+          2017&mdash;present: New York University, Brooklyn, NY, USA <br>
+          <i>PhD candidate</i>, Transportation Planning and Engineering
+        </li>
+        <li>
+          2011&mdash;2014: Tongji University, Shanghai, China <br>
+          <i>Master</i>, Transportation Information Engineering and Control
+        </li>
+        <li>
+          2007&mdash;2011: Huazhong University of Science and Technology, Wuhan, Hubei, China <br>
+          <i>Bachelor</i>, Transportation Engineering
+        </li>
+      </ul>
+    </div>  <!-- end of education_section -->
 
-        <ul>
-          <li>
-            2017&mdash;present: New York University, Brooklyn, NY, USA <br>
-            <i>PhD candidate</i>, Transportation Planning and Engineering
-          </li>
-          <li>
-            2011&mdash;2014: Tongji University, Shanghai, China <br>
-            <i>Master</i>, Transportation Information Engineering and Control
-          </li>
-          <li>
-            2007&mdash;2011: Huazhong University of Science and Technology, Wuhan, Hubei, China <br>
-            <i>Bachelor</i>, Transportation Engineering
-          </li>
-        </ul>
-      </div>
-      
-      <div class="divider"></div>
+    <div class="section">
+      <h2>WORK EXPERIENCES</h2>
 
-      <div class="section">
-        <h2>WORK EXPERIENCES</h2>
+      <ul>
+        <li>
+          2013&mdash;2014: <i>Engineer, City planner</i>,  Research Center for Urban Development of Jiaxing City, Jiaxing, Zhejiang, China
+        </li>
+        <li>
+          2011&mdash;2013: <i>Engineer</i>,  Jiaxing City Planning & Research Institute, Jiaxing, Zhejiang, China
+        </li>
+      </ul>
+    </div>  <!-- end of work_section -->
 
-        <ul>
-          <li>
-            2013&mdash;2014: <i>Engineer, City planner</i>,  Research Center for Urban Development of Jiaxing City, Jiaxing, Zhejiang, China
-          </li>
-          <li>
-            2011&mdash;2013: <i>Engineer</i>,  Jiaxing City Planning & Research Institute, Jiaxing, Zhejiang, China
-          </li>
-        </ul>
-      </div>
-      
-      <div class="divider"></div>
+    <div class="section">
+      <h2>PULICATIONS</h2>
+      <ul>
+        <li>
+          <strong>Liu, Q.</strong> and Chow, J.Y., 2022a. <a href="https://www.tandfonline.com/doi/full/10.1080/21680566.2022.2060370?casa_token=GullbEIUYv0AAAAA%3ABEmm186D1Za8LpQKJK0TeVxhyiQNDq_Ua4QTLuSc5h-FoR2PsBFrnmK57jddeZBHIg4hkfn0oJxaUA">
+          A congested schedule-based dynamic transit passenger flow estimator using stop count data</a>.
+          <i>Transportmetrica B: Transport Dynamics</i>, pp.1-26.
+        </li>
+        <li>
+          Wang, L., <strong>Liu, Q.</strong> and Ma, W., 2019. <a href="https://www.sciencedirect.com/science/article/pii/S0968090X19300208?casa_token=K2mU355xz0UAAAAA:EjBkJ--XZrgAJqFW90vMmHE4cDsHoIAOk0stQ7AGqK5UuPrbR0MFPpU2EvS-FcgVJsCuFh5t">
+          Optimization of dynamic relocation operations for one-way electric carsharing systems.</a>.
+          <i>Transportation Research Part C: Emerging Technologies</i>, 101, pp.55-69.
+        </li>
+      </ul>
+    </div>  <!-- end of publications_section -->
 
-      <div class="section">
-        <h2>PULICATIONS</h2>
-        <ul>
-          <li>
-            <strong>Liu, Q.</strong> and Chow, J.Y., 2022a. <a href="https://www.tandfonline.com/doi/full/10.1080/21680566.2022.2060370?casa_token=GullbEIUYv0AAAAA%3ABEmm186D1Za8LpQKJK0TeVxhyiQNDq_Ua4QTLuSc5h-FoR2PsBFrnmK57jddeZBHIg4hkfn0oJxaUA">
-            A congested schedule-based dynamic transit passenger flow estimator using stop count data</a>.
-            <i>Transportmetrica B: Transport Dynamics</i>, pp.1-26.
-          </li>
-          <li>
-            Wang, L., <strong>Liu, Q.</strong> and Ma, W., 2019. <a href="https://www.sciencedirect.com/science/article/pii/S0968090X19300208?casa_token=K2mU355xz0UAAAAA:EjBkJ--XZrgAJqFW90vMmHE4cDsHoIAOk0stQ7AGqK5UuPrbR0MFPpU2EvS-FcgVJsCuFh5t">
-            Optimization of dynamic relocation operations for one-way electric carsharing systems.</a>.
-            <i>Transportation Research Part C: Emerging Technologies</i>, 101, pp.55-69.
-          </li>
-        </ul>
-      </div>
-      
-      
-      <div class="divider"></div>
+    <hr>
 
-      <hr>
-
-      <div class="section">
-        <p>
-          <a href="./wechatqrcode.html">Scan my Wechat QR code</a> <br>
-          <a href="./secureline.html">Secure Line</a>
-        </p>
-      </div>
-
-    </div>
-
-    <!--  Scripts-->
+    <div class="foot">
+      <p>
+        <a href="./wechatqrcode.html">Scan my Wechat QR code</a> <br>
+        <a href="./secureline.html">Secure Line</a>
+      </p>
+    </div>  <!-- end of foot_section -->
 
   </body>
 </html>

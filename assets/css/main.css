@@ -1,0 +1,57 @@
+* {
+    margin-left: 0; 
+}
+
+body {
+	background-color: white;
+	margin-left: 0px;
+	margin-right: 5px;
+}
+
+.navigation_bar {
+	background-color: gray;
+	display: table;
+    width: 100%;
+    table-layout: fixed;    /* For cells of equal size */
+    padding: 5px 0px 5px 0px;
+    margin: 0px;
+}
+
+.navigation_bar span {
+	display: table-cell;
+    text-align: center;
+}
+
+.navigation_bar a {
+	font-family: sans-serif;
+	color: white;
+	text-decoration: none;
+}
+
+.language_select {
+	text-decoration: none;
+}
+
+h1 {
+	font-size: 24px;
+}
+
+h2 {
+	font-size: 16px;
+}
+
+p {
+	font-size: 14px;
+}
+
+ul {
+	font-size: 14px;
+}
+
+.section {
+	margin: 8px;
+}
+
+.foot {
+	margin: 8px;
+}
