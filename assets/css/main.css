@@ -59,6 +59,16 @@ body {
   padding: 8px;
 }
 
+.float_box h2{
+  padding-left: 4vw;
+}
+.float_box p{
+  padding-left: 4vw;
+}
+.float_box ul{
+  padding-left: 4vw;
+}
+
 .float_box_cols::after {
   content: "";
   clear: both;
