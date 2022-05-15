@@ -48,8 +48,8 @@ body {
 .float_box1 {
   float: left;
   width: 20%;
-  padding: 50px 20px 50px 20px;
-  margin: 20px;
+  padding: 5vw 5vw 5vw 5vw;
+  margin: 1vw;
 }
 
 
@@ -67,7 +67,7 @@ body {
 /** for clear fix **/
 
 div.float_box1 p {
-	font-size: 34px;
+	font-size: 3vw;
 	font-family: sans-serif;
 	color: white;
 }
