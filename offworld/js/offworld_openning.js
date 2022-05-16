@@ -56,6 +56,6 @@ function show() {
         clearInterval(intervalID2);
 
         var glowing = document.getElementById("icon");
-        glowing.style["animation"] = "glow 2s ease-in-out infinite alternate";
+        glowing.style["animation"] = "glow 1.5s ease-in-out infinite alternate";
     }
 }
