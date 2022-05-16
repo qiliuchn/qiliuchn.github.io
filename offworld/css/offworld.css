@@ -48,9 +48,9 @@ body {
 
 #overlay {
 	position: absolute;
-	left: 15vw;
-	top: 0vh;
-	width: 70vw
+	left: 25vw;
+	top: 15vh;
+	width: 50vw
 }
 
 #welcoming {
