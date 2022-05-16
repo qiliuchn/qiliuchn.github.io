@@ -21,3 +21,40 @@ body {
     font-size:15px;
     font-family: Courier;
 }
+
+#welcome {
+	color: #03d3fc;
+	padding-top: 10vh;
+	text-align: center;
+	font-family: Courier;
+}
+
+#icon_p {
+	text-align: center;
+	padding-top: 2vh;
+}
+
+#icon {
+	text-decoration: none;
+	color:#fff;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 36px;
+	letter-spacing: 1em;
+	text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+	/* animation: glow 3s ease-in-out infinite alternate; */
+}
+
+#welcoming {
+	opacity: 0;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+ }

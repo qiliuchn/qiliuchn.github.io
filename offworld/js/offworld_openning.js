@@ -1,5 +1,7 @@
 var opacity=0;
 var intervalID=0;
+var opacity2 = 0;
+var intervalID2 = 0;
 
 var myLines = "Wake up, Neo... <br>The Matrix has you... <br> >";
 var count = 1;
@@ -8,7 +10,6 @@ window.onload=fadeout;
 
 function fadeout(){
     setInterval(hide, 200);
-    
 }
 
 function hide(){
@@ -25,6 +26,7 @@ function hide(){
     }
 } 
 
+
 function oneByOne()
 {
     var screen = myLines.substr(0, count);
@@ -33,6 +35,27 @@ function oneByOne()
     if (myLines.charAt(count) == "<")
         count += 3;
     if (count > myLines.length)
+        fadeIn();
         return;
     setTimeout(oneByOne, 1000);
+}
+
+
+function fadeIn() {
+    setInterval(show, 200);
+}
+
+function show() {
+    var fadeinbody = document.getElementById("welcoming");
+    opacity2 = Number(window.getComputedStyle(fadeinbody)
+                     .getPropertyValue("opacity"));
+    if (opacity2 < 1) {
+        opacity2 = opacity2 + 0.005;
+        fadeinbody.style.opacity = opacity2
+    } else {
+        clearInterval(intervalID2);
+
+        var glowing = document.getElementById("icon");
+        glowing.style["animation"] = "glow 2s ease-in-out infinite alternate";
+    }
 }
