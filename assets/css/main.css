@@ -84,7 +84,12 @@ div.float_box1 p {
 
 
 .language_select {
+	font-size: 14px
+}
+
+.language_select a {
 	text-decoration: none;
+	font-size: 14px
 }
 
 h1 {
