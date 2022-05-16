@@ -46,6 +46,13 @@ body {
 	/* animation: glow 3s ease-in-out infinite alternate; */
 }
 
+#overlay {
+	position: absolute;
+	left: 15vw;
+	top: 0vh;
+	width: 70vw
+}
+
 #welcoming {
 	opacity: 0;
 }
