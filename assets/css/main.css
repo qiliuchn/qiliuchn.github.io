@@ -28,6 +28,10 @@ body {
 	text-decoration: none;
 }
 
+span.navigation_bar :hover {
+	background-color: #9c9c9c;
+}
+
 .tab_selected {
 	color: #474747 !important;
 }
