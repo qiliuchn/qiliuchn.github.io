@@ -17,7 +17,7 @@ body {
     margin: 0px;
 }
 
-.navigation_bar span {
+span.navigation_bar {
 	display: table-cell;
     text-align: center;
 }
