@@ -11,10 +11,10 @@ body {
 .navigation_bar {
 	background-color: gray;
 	display: table;
-    width: 100%;
-    table-layout: fixed;    /* For cells of equal size */
-    padding: 5px 0px 5px 0px;
-    margin: 0px;
+  width: 100%;
+  table-layout: fixed;    /* For cells of equal size */
+  padding: 5px 0px 5px 0px;
+  margin: 0px;
 }
 
 span.navigation_bar {
