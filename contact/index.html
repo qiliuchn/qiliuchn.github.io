@@ -3,13 +3,31 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
-    <meta http-equiv = "refresh" content = "1; url = ../404NotFound.html" />
-
-	<title>Share</title>
+    <link rel="stylesheet" href="../assets/css/main.css">
+	<title>Contact</title>
 </head>
-<body bgcolor='LIGHTGREY'>
-	<div class="ErrorMsg">
-    	<p>Redirecting...</p>
-	</div>
+<body>
+	<!-- Navigation bar -->
+    <nav class="navigation_bar">
+    	<span class="navigation_bar"><a href="../index.html">CV</a></span>
+    	<span class="navigation_bar"><a href="../projects/index.html">Projects</a></span>
+        <span class="navigation_bar"><a href="../blog/index.html">Blog</a></span>
+        <span class="navigation_bar"><a href="../share/index.html">Share</a></span>
+        <span class="navigation_bar"><a class="tab_selected" href="./index.html">Contact</a></span>
+    </nav>
+    <br>
+	<form action="../404NotFound.html">
+	  <label for="name">Name:</label><br>
+	  <input type="text" id="name" name="name" value="">
+	  <br>
+	  <label for="email">Email:</label><br>
+	  <input type="email" id="email" name="email" value="">
+	  <br>
+	  <br>
+	  <label for="comment">Comment:</label><br>
+	  <textarea id="w3review" name="w3review" rows="4" cols="50"></textarea>
+  	  <br>
+  	  <input type="submit" value="Submit">
+	</form> 
 </body>
 </html>
