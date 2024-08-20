@@ -6,9 +6,9 @@ var intervalID2 = 0;
 var myLines = "Wake up, Neo... <br>The Matrix has you... <br> >";
 var count = 1;
 
-window.onload=fadeout;
+window.onload = fadeout;
 
-function fadeout(){
+function fadeout() {
     setInterval(hide, 200);
 }
 

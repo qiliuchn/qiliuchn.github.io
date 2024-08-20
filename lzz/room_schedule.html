@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Layout</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .table-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 20px;
+        }
+        .table {
+            display: grid;
+            grid-template-columns: repeat(8, 60px);
+            gap: 5px;
+        }
+        .table div {
+            text-align: center;
+            background-color: #f1c40f;
+            border: 1px solid #000;
+            padding: 10px;
+            font-size: 14px;
+        }
+        .room {
+            background-color: #d35400;
+            color: #fff;
+        }
+        .header {
+            font-weight: bold;
+        }
+        .bottom-table {
+            margin-top: 20px;
+            display: grid;
+            grid-template-columns: repeat(7, 60px);
+            gap: 5px;
+        }
+        .circle-text {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            line-height: 20px;
+            text-align: center;
+            border-radius: 50%;
+            background-color: #fff;
+            border: 1px solid #000;
+            margin-bottom: 5px;
+        }
+        .bottom-table .circle-text {
+            display: block;
+            margin: 0 auto 5px auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="table-container">
+        <!-- Upper Table -->
+        <div class="table">
+            <!-- Headers -->
+            <div class="header circle-text">晨</div>
+            <div class="header circle-text">茜</div>
+            <div class="header circle-text">瑶</div>
+            <div class="header circle-text">君</div>
+            <div class="header circle-text">诗</div>
+            <div class="header circle-text">真</div>
+            <div class="header circle-text">娟</div>
+            <div class="header circle-text">瑶</div>
+
+            <!-- Data -->
+            <div>37</div>
+            <div>34</div>
+            <div>31</div>
+            <div>28</div>
+            <div>25</div>
+            <div>22</div>
+            <div>19</div>
+            <div>16</div>
+            <div>38</div>
+            <div>35</div>
+            <div>32</div>
+            <div>29</div>
+            <div>26</div>
+            <div>23</div>
+            <div>20</div>
+            <div>17</div>
+            <div>39</div>
+            <div>36</div>
+            <div>33</div>
+            <div>30</div>
+            <div>27</div>
+            <div>24</div>
+            <div>21</div>
+            <div>18</div>
+            <div>66</div>
+            <div>65</div>
+            <div>64</div>
+            <div>63</div>
+            <div>62</div>
+            <div>61</div>
+            <div>60</div>
+            <div>59</div>
+
+            <!-- Room Numbers -->
+            <div class="room">16<br>号房</div>
+            <div class="room">15<br>号房</div>
+            <div class="room">14<br>号房</div>
+            <div class="room">13<br>号房</div>
+            <div class="room">12<br>号房</div>
+            <div class="room">11<br>号房</div>
+            <div class="room">10<br>号房</div>
+            <div class="room">9<br>号房</div>
+        </div>
+
+        <!-- Bottom Table -->
+        <div class="bottom-table">
+            <div class="circle-text">宝</div>
+            <div class="circle-text">现</div>
+            <div class="circle-text">真</div>
+            <div class="circle-text">静</div>
+            <div class="circle-text">诗</div>
+            <div class="circle-text">君</div>
+            <div class="circle-text">瑶</div>
+            <div>17</div>
+            <div>18</div>
+            <div>14</div>
+            <div>10</div>
+            <div>12</div>
+            <div>11</div>
+            <div>9</div>
+            <div>40</div>
+            <div>44</div>
+            <div>46</div>
+            <div>48</div>
+            <div>50</div>
+            <div>52</div>
+            <div>54</div>
+            <div>41</div>
+            <div>45</div>
+            <div>47</div>
+            <div>49</div>
+            <div>51</div>
+            <div>53</div>
+            <div>55</div>
+            <div>42</div>
+            <div>43</div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div class="room">15<br>号房</div>
+        </div>
+    </div>
+</body>
+</html>
