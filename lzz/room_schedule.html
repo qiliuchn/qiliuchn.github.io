@@ -18,6 +18,7 @@
             display: grid;
             grid-template-columns: repeat(8, 60px);
             gap: 5px;
+            margin-bottom: 20px;
         }
         .table div {
             text-align: center;
@@ -33,10 +34,15 @@
         .header {
             font-weight: bold;
         }
-        .bottom-table {
-            margin-top: 20px;
-            display: grid;
-            grid-template-columns: repeat(7, 60px);
+        .side-table {
+            display: flex;
+            flex-direction: row;
+            gap: 5px;
+            margin-bottom: 20px;
+        }
+        .side-table-column {
+            display: flex;
+            flex-direction: column;
             gap: 5px;
         }
         .circle-text {
@@ -50,9 +56,29 @@
             border: 1px solid #000;
             margin-bottom: 5px;
         }
-        .bottom-table .circle-text {
-            display: block;
-            margin: 0 auto 5px auto;
+        .circle-text-small {
+            width: 15px;
+            height: 15px;
+            line-height: 15px;
+            font-size: 12px;
+        }
+        .side-room {
+            width: 60px;
+            height: 50px;
+            background-color: #d35400;
+            color: #fff;
+            text-align: center;
+            padding: 5px;
+            font-size: 12px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .bottom-table {
+            display: grid;
+            grid-template-columns: repeat(7, 60px);
+            gap: 5px;
         }
     </style>
 </head>
@@ -65,10 +91,10 @@
             <div class="header circle-text">茜</div>
             <div class="header circle-text">瑶</div>
             <div class="header circle-text">君</div>
+            <div class="header circle-text">静</div>
             <div class="header circle-text">诗</div>
             <div class="header circle-text">真</div>
             <div class="header circle-text">娟</div>
-            <div class="header circle-text">瑶</div>
 
             <!-- Data -->
             <div>37</div>
@@ -115,19 +141,42 @@
             <div class="room">9<br>号房</div>
         </div>
 
+        <!-- Side Table -->
+        <div class="side-table">
+            <div class="side-table-column">
+                <div class="header circle-text">瑶</div>
+                <div class="side-room">10 11<br>4 号房</div>
+                <div class="side-room">7.8.9.58<br>3 号房</div>
+            </div>
+            <div class="side-table-column">
+                <div class="header circle-text">真</div>
+                <div class="side-room">12<br>5 号房</div>
+                <div class="side-room">4.5.6.57<br>2 号房</div>
+            </div>
+            <div class="side-table-column">
+                <div class="header circle-text">娟</div>
+                <div class="side-room">13<br>6 号房</div>
+                <div class="side-room">1.2.3.56<br>1 号房</div>
+            </div>
+            <div class="side-table-column">
+                <div class="header circle-text">开</div>
+                <div class="side-room">14<br>7 号房</div>
+            </div>
+        </div>
+
         <!-- Bottom Table -->
         <div class="bottom-table">
             <div class="circle-text">宝</div>
-            <div class="circle-text">现</div>
-            <div class="circle-text">真</div>
-            <div class="circle-text">静</div>
-            <div class="circle-text">诗</div>
-            <div class="circle-text">君</div>
+            <div class="circle-text">宝</div>
+            <div class="circle-text">晨</div>
             <div class="circle-text">瑶</div>
+            <div class="circle-text">茜</div>
+            <div class="circle-text">诗</div>
+            <div class="circle-text">静</div>
             <div>17</div>
-            <div>18</div>
+            <div>15</div>
             <div>14</div>
-            <div>10</div>
+            <div>13</div>
             <div>12</div>
             <div>11</div>
             <div>9</div>
